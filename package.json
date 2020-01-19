@@ -10,14 +10,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/jsdvjx/String2Fun.git"
+        "url": "git@github.com:jsdvjx/rx-redis.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/jsdvjx/String2Fun/issues"
+        "url": "https://github.com/jsdvjx/rx-redis/issues"
     },
-    "homepage": "https://github.com/jsdvjx/String2Fun#readme",
+    "homepage": "https://github.com/jsdvjx/rx-redis/blob/master/README.md",
     "devDependencies": {
         "@types/node": "^12.7.4",
         "@typescript-eslint/eslint-plugin": "^2.1.0",
