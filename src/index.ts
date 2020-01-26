@@ -26,13 +26,12 @@ export class RxRedis {
         return ((...args: any[]) => {
             return new Observable<any>((obser: Observer<any>) => {
                 const cb: redis.Callback<any> = (error, reply) => {
-                    console.log(error, reply)
                     if (error) {
                         obser.error(error);
                     } else {
                         obser.next(reply);
                     }
-                    //obser.complete();
+                    obser.complete();
                 };
                 (handler as any)(...args, cb)
             })
