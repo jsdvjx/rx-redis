@@ -245,7 +245,7 @@ export type ServerInfo = {
         };
     };
 };
-export class RxRedisBate {
+export class RxRedisBeta {
     private _client = redis.createClient(this.options);
     constructor(private options: redis.ClientOpts) {
         this.transform(this._client.subscribe);
