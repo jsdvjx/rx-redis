@@ -126,3 +126,4 @@ export class RxRedis {
         this.client.unsubscribe(...channels);
     }
 }
+export * from './rx-redis';
